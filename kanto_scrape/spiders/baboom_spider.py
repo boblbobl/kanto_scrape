@@ -9,7 +9,7 @@ class BaboomSpider(BaseSpider):
     allowed_domains = ["baboom.dk"]
     
     # TODO: Make this dynamic
-    page_no = 2
+    page_no = 178
     
     start_urls = []
     for n in range(1, page_no): 
